@@ -71,14 +71,14 @@ The architecture follows SRCNN, but the training procedure is a modern PyTorch a
 
 ## Comparison with the original paper
 
-The following ×2 results were read from the included `checkpoints/best_psnr.pth` checkpoint. PSNR and SSIM are evaluated on the Y channel.
+The following results were read from the included `checkpoints/best_psnr.pth` checkpoint. PSNR and SSIM are evaluated on the Y channel.
 
 | Dataset | Original paper PSNR / SSIM [1] | This project PSNR / SSIM |
 |---|---:|---:|
-| Set5 ×2 | **36.66 / 0.9542** | **35.5682 / 0.9524** |
-| Set14 ×2 | **32.45 / 0.9067** | **31.7958 / 0.9078** |
+| Set5 | **36.66 / 0.9542** | **36.1882 / 0.95654** |
+| Set14 | **32.45 / 0.9067** | **32.1637 / 0.91163** |
 
-> **Comparison note:** the paper [1] values above correspond to the authors' larger 9-5-5 model trained on ImageNet, whereas the included checkpoint uses the basic 9-1-5 model trained on the 91-image dataset. The values therefore show the reported performance context, not a controlled one-to-one reproduction.
+> **Comparison note:** the paper [1] values above correspond to the authors' larger 9-5-5 model trained on ImageNet, whereas the included checkpoint uses the basic 9-5-5 model trained on the 91-image dataset. The values therefore show the reported performance context, not a controlled one-to-one reproduction.
 
 
 ## Setup
