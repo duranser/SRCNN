@@ -16,7 +16,7 @@ The default experiment uses:
 
 ## SRCNN architecture
 <p align="center">
-<img width="950" height="341" alt="image" src="https://github.com/user-attachments/assets/97cfc304-b408-456c-b00f-38ce57ec933a" />
+<img width="850" height="341" alt="image" src="https://github.com/user-attachments/assets/97cfc304-b408-456c-b00f-38ce57ec933a" />
 </p>
 
 <p align="center"><em>Original SRCNN architecture: patch extraction and representation, non-linear mapping, and reconstruction. Figure is taken from Dong et al. [1].</em></p>
@@ -179,6 +179,7 @@ For an HR ground-truth image, the script saves:
 
 The nearest-neighbor output is intended for visual comparison. SRCNN itself receives the bicubic-upscaled Y channel.
 
+
 ## References
 
 [1] C. Dong, C. C. Loy, K. He, and X. Tang, “Image Super-Resolution Using Deep Convolutional Networks,” *IEEE Transactions on Pattern Analysis and Machine Intelligence*, vol. 38, no. 2, pp. 295–307, 2016. [doi:10.1109/TPAMI.2015.2439281](https://doi.org/10.1109/TPAMI.2015.2439281) · [arXiv:1501.00092](https://arxiv.org/abs/1501.00092)
@@ -188,3 +189,8 @@ The nearest-neighbor output is intended for visual comparison. SRCNN itself rece
 [3] M. Bevilacqua, A. Roumy, C. Guillemot, and M.-L. Alberi-Morel, “Low-Complexity Single-Image Super-Resolution Based on Nonnegative Neighbor Embedding,” in *BMVC*, 2012. The Set5 benchmark is attributed to this work. [doi:10.5244/C.26.135](https://doi.org/10.5244/C.26.135)
 
 [4] R. Zeyde, M. Elad, and M. Protter, “On Single Image Scale-Up Using Sparse-Representations,” in *Curves and Surfaces*, LNCS 6920, pp. 711–730, 2012. The Set14 benchmark is attributed to this work. [doi:10.1007/978-3-642-27413-8_47](https://doi.org/10.1007/978-3-642-27413-8_47)
+
+
+## Acknowledgment
+
+This repository is a PyTorch reimplementation developed for research and educational use. The network figure is taken from the original SRCNN publication and is included with attribution to the authors.
